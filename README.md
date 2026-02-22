@@ -141,6 +141,11 @@ This assignment successfully demonstrated:
 
 ---
 
+## 📊 Model Performance Comparison
+
+![Model Accuracy](model_accuracy_comparison.png)
+
+---
 
 ## ✅ Final Outcome
 
