@@ -1,12 +1,12 @@
 # Data Generation using Modelling and Simulation for Machine Learning
 
-## 📌 Objective
+##  Objective
 
 The objective of this assignment is to generate synthetic datasets using a simulation tool, analyze parameter bounds, perform multiple simulations, and compare different machine learning models to identify the best performing model.
 
 ---
 
-## 🔧 Simulation Tool Used
+##  Simulation Tool Used
 
 We selected:
 
@@ -21,7 +21,7 @@ We selected:
 
 ---
 
-## ⚙️ Parameter Analysis and Bounds
+##  Parameter Analysis and Bounds
 
 The following parameters were studied and bounded:
 
@@ -49,14 +49,14 @@ This ensures valid dataset generation for all simulations.
 
 ---
 
-## 🔁 Step 1: Single Simulation Example
+##  Step 1: Single Simulation Example
 
 Random parameters were generated and passed to the simulator.  
 Logistic Regression was trained and accuracy was recorded.
 
 ---
 
-## 🔁 Step 2: 1000 Simulations
+## Step 2: 1000 Simulations
 
 - Random parameters generated within defined bounds
 - Dataset generated using simulation tool
@@ -79,7 +79,7 @@ Each simulation stored:
 
 ---
 
-## 🤖 Model Comparison
+##  Model Comparison
 
 We compared the following Machine Learning models:
 
@@ -94,7 +94,7 @@ Each model was trained on the same simulated dataset and evaluated using Accurac
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | Accuracy |
 |-------|----------|
@@ -107,14 +107,14 @@ Each model was trained on the same simulated dataset and evaluated using Accurac
 
 ---
 
-## 🏆 Best Performing Model
+## Best Performing Model
 
 **Support Vector Machine (SVM)**  
 Accuracy: **91.67%**
 
 ---
 
-## 📈 Observations
+## Observations
 
 - Model performance depends heavily on dataset parameters.
 - Higher class separation improves accuracy.
@@ -123,7 +123,7 @@ Accuracy: **91.67%**
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 Synthetic data generation using modelling and simulation is highly useful for:
 
@@ -138,26 +138,9 @@ This assignment successfully demonstrated:
 - Model comparison and evaluation
 - Performance analysis
 
----
-
-## 🛠 Technologies Used
-
-- Python
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
-- Google Colab
 
 ---
 
-## 📂 Repository Contents
-
-- Jupyter Notebook (.ipynb)
-- README.md
-- Simulation and Model Comparison Code
-
----
 
 ## ✅ Final Outcome
 
